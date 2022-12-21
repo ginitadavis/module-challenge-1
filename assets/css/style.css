@@ -10,6 +10,17 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Assigns font color white to the hiperlinks*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Paragraphs have font-size 16px*/
+p {
+    font-size: 16px;
+}
+
 /*The header has padding of 20px, and uses font is Trebuchet MS*/
 header {
     padding: 20px;
@@ -52,17 +63,6 @@ header nav ul li {
 }
 
 
-/*Assigns font color white to the hiperlinks*/
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/*Paragraphs have font-size 16px*/
-p {
-    font-size: 16px;
-}
-
 /*Assigns Main image height, width, margin bottom, background image link, background size, and position*/
 .hero {
     height: 800px;
@@ -71,6 +71,33 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Assigns items inside div = content a width, margin left, and display: inline-block*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* The three boxes of Search Engine Optimization, Online Reputation Management, and Social Media Marketing
+have assigned margin-bottom, padding, height, font of Gill Sans, background color of blue
+and font color white*/
+
+main section  {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+/* The images used in the three boxes of Search Engine Optimization, Online Reputation Management, 
+and Social Media Marketing have an assigned max height*/
+main section img {
+    max-height: 200px;
 }
 
 /* Directs the content in the first and last boxes to the left and assigns a margin on the right*/
@@ -85,12 +112,12 @@ p {
     margin-left: 25px;
 } 
 
-/* Assigns items inside div = content a width, margin left, and display: inline-block*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* The subheadings h2 inside the three boxes have assigned margin bottom and font size*/
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
+
 /* Assigns items inside div = benefits a margin, padding, elements are not allowed to float on both sides
 float on the right, width, height, font Gill Sans, and background color light blue*/
 .benefits {
@@ -156,66 +183,7 @@ have margin, and max-width */
     max-width: 150px;
 }
 
-/* The three boxes of Search Engine Optimization, Online Reputation Management, and Social Media Marketing
-have assigned margin-bottom, padding, height, font of Gill Sans, background color of blue
-and font color white*/
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* The images used in the three boxes of Search Engine Optimization, Online Reputation Management, 
-and Social Media Marketing have an assigned max height*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* The subheadings h2 inside the three boxes have assigned margin bottom and font size*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* The element inside the footer has assigned padding, clear, font Trebuchet MS and text aligned in the center*/
 .footer {
@@ -226,6 +194,6 @@ and Social Media Marketing have an assigned max height*/
 }
 
 /* The subheading h2 inside the footer has assigned font size*/
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }

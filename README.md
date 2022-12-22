@@ -3,7 +3,7 @@
 ## Description
 
 This is the first challenge of the FullStack developer bootcamp. 
-In this challenge I was provided with a starter code that needed to be improved, without changing the functionality.
+In this challenge I was provided with a starter code that needed to be improved without changing the functionality.
 I have replaced all the Non-Semantic tags by Semantic tags to provide accessibility, better user experience, and to help search engines and other devices to understand the content. This was done by reviewing the HTML and CSS  codes, and modifying the areas that needed clarification as well as utilizing comments for easier understanding of the code.
 
 My motivation was to learn how to read the code. Now the code is long-term sustainable and it functions properly. I was able to navigate through each element, and have learned how to improve it. 
@@ -17,7 +17,7 @@ Navigate through the webpage using the three links found at the right top corner
 
 ![alt text](assets/images/Read-me-guide.png)
 
-Link to the deployed app 
+Link to the deployed app [https://ginitadavis.github.io/module-challenge-1/#social-media-marketing] (https://ginitadavis.github.io/module-challenge-1/#social-media-marketing)
 
 ## License
 

@@ -14,8 +14,8 @@ A period means a class
 A hashtag means a id
 
 
-1. Finish adding semantic html
-2. Consolidate coinciding CSS
+1. Finish adding semantic html - Done
+2. Consolidate coinciding CSS - Done
 3. Add Alt tags to images - Done
 4. Swap out title - Done
 5. Fill out readme 

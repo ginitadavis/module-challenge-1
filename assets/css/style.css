@@ -21,7 +21,7 @@ p {
     font-size: 16px;
 }
 
-/*The header has padding of 20px, and uses font is Trebuchet MS*/
+/*The header has padding of 20px, font is Trebuchet MS, background color is blue and font is white*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,7 +29,7 @@ header {
     color: #ffffff;
 }
 
-/* header h1 shows the navigation links in a horizontal line using display inline-block and shows the font size as 48px*/
+/* header h1 shows the word Horiseon in a horizontal line using display inline-block and shows the font size as 48px*/
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -40,7 +40,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* shows padding-top, margin-right, elements float on the right, font is Gill Sans and size is 20px*/
+/* The navigation block has padding, margin, elements float on the right, font is Gill Sans and size is 20px*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,21 +49,19 @@ header nav {
     font-size: 20px;
 }
 
-/*The items inside the element ul are not being displayed as a 
-list using list-style-type = none*/
+/*No item marker is shown*/
 header nav ul {
     list-style-type: none;
 }
 
-/*The items in the li element are displayed horizontally using 
-display: inline-block and the margin is 25px*/
+/*The items in the li element are displayed horizontally using display: inline-block and the margin is 25px*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 
-/*Assigns Main image height, width, margin bottom, background image link, background size, and position*/
+/*Section hero has height, width, margin bottom, background image link, background size, and position*/
 .hero {
     height: 800px;
     width: 100%;
@@ -73,17 +71,14 @@ header nav ul li {
     background-position: center;
 }
 
-/* Assigns items inside div = content a width, margin left, and display: inline-block*/
+/* Items in the main have a width, margin left, and display: inline-block*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* The three boxes of Search Engine Optimization, Online Reputation Management, and Social Media Marketing
-have assigned margin-bottom, padding, height, font of Gill Sans, background color of blue
-and font color white*/
-
+/* Sections inside main have margin-bottom, padding, height, font of Gill Sans, background color of blue and font color white*/
 main section  {
     margin-bottom: 20px;
     padding: 50px;
@@ -100,26 +95,25 @@ main section img {
     max-height: 200px;
 }
 
-/* Directs the content in the first and last boxes to the left and assigns a margin on the right*/
+/* Directs the images in the first and last boxes to the left and assigns a margin from the right*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Directs the content of the middle box to the right and assigns a margin on the left*/
+/* Directs the image of the middle box to the right and assigns a margin from the left*/
 .float-right {
     float: right;
     margin-left: 25px;
 } 
 
-/* The subheadings h2 inside the three boxes have assigned margin bottom and font size*/
+/* The subheadings h2 have margin bottom and font size*/
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Assigns items inside div = benefits a margin, padding, elements are not allowed to float on both sides
-float on the right, width, height, font Gill Sans, and background color light blue*/
+/* Section benefits has margin, padding, elements float on the right, width, height, font Gill Sans, and background color light blue*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -131,69 +125,34 @@ float on the right, width, height, font Gill Sans, and background color light bl
     background-color: #2589bd;
 }
 
-/*div classes lead, brand, and cost will have margin-bottom and font color white*/
-.benefit-lead {
+/*section have assigned a margin-bottom and font color white*/
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Subheaders benefit lead, brand, and cost h3 have margin and text aligned*/
-.benefit-lead h3 {
+/*Subheaders h3 on the box on the right side of the page have margin and text aligned*/
+.benefit-lead h3,  .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Images of classes benefit-lead, brand, and cost start in a new line with display:block,
-have margin, and max-width */
-.benefit-lead img {
+/*Images of sections benefit-lead, brand, and cost start in a new line with display:block,have margin, and max-width */
+.benefit-lead img, .benefit-brand img,.benefit-cost img  {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-/* The element inside the footer has assigned padding, clear, font Trebuchet MS and text aligned in the center*/
-.footer {
+/* The footer has assigned padding, clear, font Trebuchet MS and text aligned in the center*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-/* The subheading h2 inside the footer has assigned font size*/
-.footer h4 {
+/* Subheading h4 has assigned font size*/
+footer h4 {
     font-size: 20px;
 }

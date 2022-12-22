@@ -17,7 +17,7 @@ Navigate through the webpage using the three links found at the right top corner
 
 ![alt text](assets/images/Read-me-guide.png)
 
-Link to the deployed app [https://ginitadavis.github.io/module-challenge-1/#social-media-marketing] (https://ginitadavis.github.io/module-challenge-1/#social-media-marketing)
+Link to the deployed app https://ginitadavis.github.io/module-challenge-1/#social-media-marketing
 
 ## License
 
